@@ -1,0 +1,455 @@
+body{
+    font-size: 16px  !important;
+    font-family: 'Karla', sans-serif  !important;
+    
+}
+.nav{
+    display: flex;
+    align-items: center !important;
+    margin-top: 20px;
+   
+}
+.navbar{
+    margin-left: auto;
+     
+}
+.navbar_nav{
+    display: flex;
+    margin-bottom: 0px !important;
+    
+}
+.nav_item{
+    list-style: none;
+    margin-left: 28px;
+}
+.nav_item:first-child{
+    margin-left: 0px;
+}
+
+.nav_link{
+    text-decoration: none;
+    color: rgb(139, 137, 142);
+    font-weight: 700;
+   
+}
+
+.nav_link:hover{
+    color: rgb(15,15,17);
+}
+
+.bg_color{
+    position: relative;
+    background-color: rgb(44,38,64);
+    z-index: -2;
+    
+    
+}
+nav{
+    margin-bottom: 20px;
+}
+.header{
+    display: flex;
+    position: relative;
+     
+}
+.topbtn{
+    color:rgb(44,38,64) ;
+    width: 146px;
+    height: 40px;
+    margin-left: 35px;
+    background-color: #fff;
+    border: 1px solid rgb(44,38,64);
+    box-shadow:inset 0px 0px 0px 1px grey;
+    font-weight: 700;
+}
+.topbtn:hover{
+    color: white;
+    background-color:rgb(44,38,64) ;
+}
+.headerbtn{
+    width: 146px;
+    height: 40px;
+    color: white;
+    background-color: rgb(44,38,64);
+    border: 1px solid white;
+    box-shadow:inset 0px 0px 0px 1px grey;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+.headerbtn:hover{
+    color: rgb(44,38,64);
+    background-color: white;
+   
+}
+
+.heading{
+    font-size: 64px;
+    max-width: 483px;
+    width: 100%;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+
+.top_line{
+    display: block;
+    width: 152px;
+    color: white;
+    border-top:1px solid white;
+    margin-top: 106px;
+    margin-bottom: 72px;
+    
+}
+.about_paragraph{
+    color: white;
+    max-width: 540px;
+    width: 100%;
+    margin-top: 28px;
+}
+
+.img{
+    position: relative;
+    margin-left: 33px;
+    max-width: 550px;
+    width: 100%;
+    
+
+}
+.familyimg{
+   
+    position: absolute;
+    top: 104px;
+    z-index: -1;
+   
+}
+.about{
+    margin-bottom: 115px;
+}
+
+    
+
+.bg_patternleft{
+    position: absolute;
+    top: 450px;
+    left:-10px;
+}
+.bgpatternright{
+    background:url(bg-pattern-intro-right-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 950px -78px;
+    margin-right: -10px;
+   
+}
+.line{
+    display: block;
+    width: 152px;
+    border-top:1px solid rgb(176, 164, 178);
+    margin-top: 106px;
+    margin-bottom: 72px;
+}
+.diferent{
+    font-size: 64px;
+    max-width: 483px;
+    width: 100%;
+    color: rgb(44,41,48);
+    font-family: 'DM Serif Display', serif; 
+}
+.heading_article{
+  margin-top: 304px;  
+  margin-bottom: 100px;
+}
+.article{
+    display: flex;
+}
+.flex{
+    margin-left: 27px;
+    max-width: 350px;
+    width: 100%;
+}
+.flex:first-child{
+    margin-left: 0px;
+}
+.icon_flex{
+    margin-bottom: 48px;
+}
+.offer{
+    font-family: 'DM Serif Display', serif;
+    margin-bottom: 30px;
+
+}
+.offer_paragraph{
+    color: rgb(137,135,138);
+}
+
+.aside{
+    background: url(bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: 674px 0px;
+    background-size: contain;
+    display: flex;
+    background-color: rgb(44,38,64);
+    margin-top: 165px;
+    align-items: center;
+    padding: 80px;
+}
+.more{
+    font-size: 50px;
+    max-width: 516px;
+    width: 100%;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+.btn_more{
+    margin-left: auto;
+}
+.btn_howwork{
+    background-color: transparent;
+    color: white;
+    width: 160px;
+   height: 40px;
+   border: 1px solid white;
+}
+.btn_howwork:hover{
+    color:rgb(44,38,64);
+    background-color: white;
+}
+.footer{
+    background-color: rgb(250,250,250) !important;
+    background: url(../insure-landing-page-master/images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: -90px 0px;
+    padding-bottom: 68px;
+
+}
+
+.headfooter{
+    margin-top: 150px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 36px;
+    margin-bottom: 50px;
+    display: flex;
+    padding-top: 66px;
+    align-items: center;
+}
+.links{
+    margin-left: auto;
+}
+.fab{
+    margin-left: 14px;
+    font-size: 28px;
+    color: rgb(120,115,122);
+}
+.fab:hover{
+    color:rgb(44,38,64) ;
+}
+
+.botomfooter{
+    display: flex;
+    
+}
+.blok{
+    margin-left: 150px;
+    
+}
+.blok:first-child{
+    margin-left: 0px;
+}
+.foterheading,.foternav{
+    list-style: none;
+}
+.foterlink{
+    text-decoration: none;
+    color: rgb(42,50,51);
+    font-weight: 700;
+    font-size: 15px;
+    
+}
+.foterheading{
+    color: rgb(128,128,130);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 44px;
+    font-size: 15px;
+}
+.foterlink:hover{
+ text-decoration: underline;
+ color: rgb(42,50,51);
+}
+.bghamburger{
+    display: none;
+}
+.menu_icon{
+    display: none;
+}
+.mobilebg_paternright{
+    display: none;
+}
+.mobfamilyimg{
+    display: none;
+}
+
+@media screen and (max-width: 400px){
+    .mobmenu{
+        display: none;
+    }
+    .navbar{
+        display: none !important;
+    }
+    .menu_icon{
+        display: block;
+        margin-left: auto;
+    }
+    .close_btn{
+        display: none;
+    }
+    
+    .hamburger{
+        background-color: rgb(43,40,47) !important;
+        background: url(../insure-landing-page-master/images/bg-pattern-mobile-nav.svg);
+        background-position: 2px 327px;
+        background-repeat: no-repeat;
+        text-align: center;
+        padding: 24px 0px 300px 0px;
+
+    }
+    .burgerlink{
+        text-decoration: none;
+        color: rgb(226,224,229);
+        
+    }
+    .burgerlist{
+        list-style: none;
+        margin-bottom: 30px;
+        
+    }
+    .burgerlink:active{
+        color: white;
+    }
+
+    .burgerbtn{
+        width: 300px;
+        height: 40px;
+        background-color: transparent;
+        border: 1px solid rgb(226,224,229) ;
+        color: rgb(226,224,229);
+    }
+    .hamburger_menu{
+        padding-left: 0px;
+    }
+    .nav{
+        padding-right: 0px;
+        padding-left: 14px !important;
+    }
+    .bg_color{
+        padding-left: 0px !important;
+        text-align: center;
+        padding-right: 0px !important;
+        
+    }
+    .mobfamilyimg{
+        display: block;
+    }
+    .top_line{
+        display: none;
+    }
+    .img{
+        display: none;
+    }
+    .bg_patternleft{
+        display: none;
+    }
+    .bgpatternright{
+        background:none;
+        background-repeat: no-repeat;
+        background-position: 950px -78px;
+        margin-right: 0px;
+       
+    }
+   .about{
+       background: url(../insure-landing-page-master/images/bg-pattern-intro-left-mobile.svg);
+       background-repeat: no-repeat;
+       background-position: -5px 0px;
+       padding: 0px 33px;
+       
+       
+   }
+   .mobilebg_paternright{
+       display: block;
+       position: absolute;
+       top: 900px;
+       left: 251px;
+   }
+   .heading{
+       font-size: 40px;
+       margin-top: 100px;
+   }
+   .heading_article{
+       text-align: center;
+       margin-top: 130px;
+       
+   }
+   .pad{
+       padding-right: 0px !important;
+       padding-left: 0px !important;
+   }
+ 
+   
+   .article{
+       display: block;
+       text-align: center;
+   }
+   .flex{
+       margin-left: 0px;
+   }
+   .aside{
+       background: url(../insure-landing-page-master/images/bg-pattern-how-we-work-mobile.svg);
+       background-repeat: no-repeat;
+       background-position:175px -4px ;
+       background-color: rgb(44,38,64);
+       display: block;
+       padding: 70px 0px;
+       text-align: center;
+   }
+   .btn_howwork{
+       margin-top: 45px;
+   }
+   .line{
+       margin: 0 auto;
+       margin-bottom: 45px;
+   }
+   .headfooter{
+    margin-top: 130px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 36px;
+    margin-bottom: 50px;
+    display: block;
+    padding-top: 66px;
+    text-align: center;
+}
+.links{
+    margin-left: 0px;
+}
+.logo{
+    margin-bottom: 34px;
+}
+.botomfooter{
+    display: block;
+    text-align: center;
+    
+}
+.blok{
+    margin-left: 0px;
+
+    
+}
+.foterheading{
+    color: rgb(128,128,130);
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+   
+}
